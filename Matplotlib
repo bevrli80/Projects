@@ -19,17 +19,14 @@ plt.subplot(411)
 plt.plot([x*2 for x in xs], [y*2 for y in ys], 'r--', label='red dashes')
 plt.legend()
 plt.subplot(412)
-plt.plot([x*3 for x in xs], [y+10 for y in ys], color='g', linestyle='-', 
-         label='green solid')
+plt.plot([x*3 for x in xs], [y+10 for y in ys], color='g', linestyle='-', label='green solid')
 plt.legend()
 
 plt.subplot(413)
-plt.plot([x/2 for x in xs], [y+15 for y in ys], linestyle='-', marker='d', 
-         color='black', label='black diamonds')
+plt.plot([x/2 for x in xs], [y+15 for y in ys], linestyle='-', marker='d', color='black', label='black diamonds')
 plt.legend()
 
 plt.subplot(414)
-plt.plot([x*2 for x in xs], [y**2 for y in ys], color='blue', linestyle=':', 
-           label='blue dots')
+plt.plot([x*2 for x in xs], [y**2 for y in ys], color='blue', linestyle=':', label='blue dots')
 plt.legend()
 plt.tight_layout()
